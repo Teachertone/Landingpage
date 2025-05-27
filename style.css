@@ -14,7 +14,7 @@ body {
   justify-content: center;
   width: 100%;
   padding: 10px;
-  background-color: #9bbceb;
+  background-color: #1F2937;
   color: white;
 }
 .container {
@@ -29,6 +29,7 @@ body {
 h3 {
   text-align: left;
   font-weight: bold;
+  
 }
 ul {
     display: flex;
@@ -46,20 +47,9 @@ a {
   justify-content: center;
   width: 100%;
   padding: 10px;
-  background-color: #9bbceb;
+  background-color: #1F2937;
   color: white; 
 }
-
-/* .contents {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  flex-wrap: wrap;
-  border: 2px solid red;
-  gap: 10px;
-  width: 1200px;
-} */
 
 .contents {
   width: 1200px;
@@ -68,14 +58,14 @@ a {
   justify-content: space-between;
   border: 2px solid red;
 }
-.container__image {
-  margin: 20px 30px 0 0;
-  width: 100px;
+.contents__image {
+  margin: 0;
+  width:auto;
   -o-object-fit: contain;
      object-fit: contain;
-  align-self: flex-start;
+
 }
-.container__text {
+.contents__text {
   flex: 1 1 auto;
   margin: 0;
   padding: 0; 
@@ -104,8 +94,23 @@ h1 {
     padding: 5px;
     width: 100px;
 }
+
 /* .information {
-    background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #799ed3;
+  color: white; 
+} */
+
+/* .second {
+  width: 1200px;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  border: 2px solid red;
 }
 
 .photos {
@@ -117,8 +122,8 @@ img {
   width:50%;
   border: 2px solid blue;
   border-radius: 8px;
-}
-.quote {
+} */
+/* .quote {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
